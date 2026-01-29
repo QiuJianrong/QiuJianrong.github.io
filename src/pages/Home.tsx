@@ -23,7 +23,14 @@ export function Home(): ReactElement {
                       {/* Card Slider */}
                       <div className="slider-container">
                           <div className="swiper-container card-slider swiper-container-horizontal">
-                              <div className="swiper-wrapper" style="transform: translate3d(-961.5px, 0px, 0px); transition-duration: 0ms;"><div className="swiper-slide swiper-slide-duplicate" data-swiper-autoplay="10000" style="width: 300.5px; margin-right: 20px;" data-swiper-slide-index="6">
+                              <div className="swiper-wrapper" style={{
+                                  transform: 'translate3d(-961.5px, 0px, 0px)',
+                                  transitionDuration: '0ms'
+                                }}>
+                                <div className="swiper-slide swiper-slide-duplicate" data-swiper-autoplay="10000" style={{
+                                    width: '300.5px', 
+                                    marginRight: '20px'
+                                  }} data-swiper-slide-index="6">
                                       <div className="card">
                                           <div className="card-body">
                                               <div className="testimonial-author">Jan. 14th, 2019</div>
@@ -32,7 +39,10 @@ export function Home(): ReactElement {
                                               </div>
                                           </div>
                                       </div>
-                                  </div><div className="swiper-slide swiper-slide-duplicate" data-swiper-autoplay="10000" style="width: 300.5px; margin-right: 20px;" data-swiper-slide-index="7">
+                                  </div><div className="swiper-slide swiper-slide-duplicate" data-swiper-autoplay="10000" style={{
+                                    width: '300.5px', 
+                                    marginRight: '20px'
+                                  }} data-swiper-slide-index="7">
                                       <div className="card">
                                           <div className="card-body">
                                               <div className="testimonial-author">Oct. 28th, 2019</div>
@@ -43,7 +53,10 @@ export function Home(): ReactElement {
                                       </div>
                                   </div>
 
-                                  <div className="swiper-slide swiper-slide-prev" data-swiper-autoplay="10000" style="width: 300.5px; margin-right: 20px;" data-swiper-slide-index="0">
+                                  <div className="swiper-slide swiper-slide-prev" data-swiper-autoplay="10000" style={{
+                                    width: '300.5px', 
+                                    marginRight: '20px'
+                                  }} data-swiper-slide-index="0">
                                       <div className="card">
                                           <div className="card-body">
                                               <div className="testimonial-author">Apr. 17th, 2024</div>
@@ -53,7 +66,10 @@ export function Home(): ReactElement {
                                       </div>
                                   </div>{/*  <!-- end of swiper-slide --> */}
 
-                                  <div className="swiper-slide swiper-slide-active" data-swiper-autoplay="10000" style="width: 300.5px; margin-right: 20px;" data-swiper-slide-index="1">
+                                  <div className="swiper-slide swiper-slide-active" data-swiper-autoplay="10000" style={{
+                                    width: '300.5px', 
+                                    marginRight: '20px'
+                                  }} data-swiper-slide-index="1">
                                       <div className="card">
                                           <div className="card-body">
                                               <div className="testimonial-author">Sep. 11th, 2023</div>
@@ -63,7 +79,10 @@ export function Home(): ReactElement {
                                       </div>
                                   </div>{/*  <!-- end of swiper-slide --> */}
 
-                                  <div className="swiper-slide swiper-slide-next" data-swiper-autoplay="10000" style="width: 300.5px; margin-right: 20px;" data-swiper-slide-index="2">
+                                  <div className="swiper-slide swiper-slide-next" data-swiper-autoplay="10000" style={{
+                                    width: '300.5px', 
+                                    marginRight: '20px'
+                                  }} data-swiper-slide-index="2">
                                       <div className="card">
                                           <div className="card-body">
                                               <div className="testimonial-author">May. 14th, 2023</div>
@@ -75,7 +94,10 @@ export function Home(): ReactElement {
 
 
 
-                                  <div className="swiper-slide" data-swiper-autoplay="10000" style="width: 300.5px; margin-right: 20px;" data-swiper-slide-index="3">
+                                  <div className="swiper-slide" data-swiper-autoplay="10000" style={{
+                                    width: '300.5px', 
+                                    marginRight: '20px'
+                                  }} data-swiper-slide-index="3">
                                       <div className="card">
                                           <div className="card-body">
                                               <div className="testimonial-author">Sep. 11th, 2023</div>
@@ -85,7 +107,10 @@ export function Home(): ReactElement {
                                       </div>
                                   </div> {/* end of swiper-slide */}
 
-                                  <div className="swiper-slide" data-swiper-autoplay="10000" style="width: 300.5px; margin-right: 20px;" data-swiper-slide-index="4">
+                                  <div className="swiper-slide" data-swiper-autoplay="10000" style={{
+                                    width: '300.5px', 
+                                    marginRight: '20px'
+                                  }} data-swiper-slide-index="4">
                                       <div className="card">
                                           <div className="card-body">
                                               <div className="testimonial-author">May. 26th, 2021</div>
@@ -97,7 +122,10 @@ export function Home(): ReactElement {
                                       </div>
                                   </div> {/* end of swiper-slide */}
 
-                                  <div className="swiper-slide" data-swiper-autoplay="10000" style="width: 300.5px; margin-right: 20px;" data-swiper-slide-index="5">
+                                  <div className="swiper-slide" data-swiper-autoplay="10000" style={{
+                                    width: '300.5px', 
+                                    marginRight: '20px'
+                                  }} data-swiper-slide-index="5">
                                       <div className="card">
                                           <div className="card-body">
                                               <div className="testimonial-author">Sept. 30th, 2020</div>
@@ -108,7 +136,10 @@ export function Home(): ReactElement {
                                       </div>
                                   </div> {/* end of swiper-slide */}
 
-                                  <div className="swiper-slide" data-swiper-autoplay="10000" style="width: 300.5px; margin-right: 20px;" data-swiper-slide-index="6">
+                                  <div className="swiper-slide" data-swiper-autoplay="10000" style={{
+                                    width: '300.5px', 
+                                    marginRight: '20px'
+                                  }} data-swiper-slide-index="6">
                                       <div className="card">
                                           <div className="card-body">
                                               <div className="testimonial-author">Jan. 14th, 2019</div>
@@ -119,7 +150,10 @@ export function Home(): ReactElement {
                                       </div>
                                   </div> {/* end of swiper-slide */}
 
-                                  <div className="swiper-slide" data-swiper-autoplay="10000" style="width: 300.5px; margin-right: 20px;" data-swiper-slide-index="7">
+                                  <div className="swiper-slide" data-swiper-autoplay="10000" style={{
+                                    width: '300.5px', 
+                                    marginRight: '20px'
+                                  }} data-swiper-slide-index="7">
                                       <div className="card">
                                           <div className="card-body">
                                               <div className="testimonial-author">Oct. 28th, 2019</div>
@@ -131,7 +165,10 @@ export function Home(): ReactElement {
                                   </div> {/* end of swiper-slide */}
                               
                               
-                              <div className="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-autoplay="10000" style="width: 300.5px; margin-right: 20px;" data-swiper-slide-index="0">
+                              <div className="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-autoplay="10000" style={{
+                                    width: '300.5px', 
+                                    marginRight: '20px'
+                                  }} data-swiper-slide-index="0">
                                       <div className="card">
                                           <div className="card-body">
                                               <div className="testimonial-author">Apr. 17th, 2024</div>
@@ -140,7 +177,10 @@ export function Home(): ReactElement {
                                           </div>
                                       </div>
                               </div>
-                                  <div className="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-autoplay="10000" style="width: 300.5px; margin-right: 20px;" data-swiper-slide-index="1">
+                                  <div className="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-autoplay="10000" style={{
+                                    width: '300.5px', 
+                                    marginRight: '20px'
+                                  }} data-swiper-slide-index="1">
                                       <div className="card">
                                           <div className="card-body">
                                               <div className="testimonial-author">Sep. 11th, 2023</div>
