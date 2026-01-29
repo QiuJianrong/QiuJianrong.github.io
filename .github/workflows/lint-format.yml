@@ -48,4 +48,4 @@ jobs:
           author_name: GitHub Action
           message: changes by lint&format script [skip ci]
           push: origin main
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
