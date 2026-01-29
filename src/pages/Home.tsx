@@ -51,7 +51,7 @@ export function Home(): ReactElement {
                                               </div>
                                           </div>
                                       </div>
-                                  </div> <!-- end of swiper-slide -->
+                                  </div>{/*  <!-- end of swiper-slide --> */}
 
                                   <div className="swiper-slide swiper-slide-active" data-swiper-autoplay="10000" style="width: 300.5px; margin-right: 20px;" data-swiper-slide-index="1">
                                       <div className="card">
@@ -61,7 +61,7 @@ export function Home(): ReactElement {
                                               </div>
                                           </div>
                                       </div>
-                                  </div> <!-- end of swiper-slide -->
+                                  </div>{/*  <!-- end of swiper-slide --> */}
 
                                   <div className="swiper-slide swiper-slide-next" data-swiper-autoplay="10000" style="width: 300.5px; margin-right: 20px;" data-swiper-slide-index="2">
                                       <div className="card">
@@ -151,7 +151,8 @@ export function Home(): ReactElement {
                               <div className="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"></div>
                               {/* <!-- end of add arrows --> */}
 
-                          <span className="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div> <!-- end of swiper-container -->
+                          <span className="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div> 
+                          {/* <!-- end of swiper-container --> */}
                       </div>{/*  <!-- end of slider-container --> */}
                       {/* <!-- end of card slider --> */}
                   </div>{/*  <!-- end of col --> */}
