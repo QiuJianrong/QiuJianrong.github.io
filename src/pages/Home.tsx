@@ -28,31 +28,31 @@ export function Home(): ReactElement {
         {/* React Bootstrap 轮播图 */}
         <Carousel interval={3000} controls={true} indicators={true}>
             <Carousel.Item style={{ height: '300px' }}>
-                <div className="card" style={{width: "18rem"}}>
+                <div className="card" style={{width: "50rem", alignItems:'center'}}>
                 <div className="card-body">
-                    <h5 className="card-title" style={{alignItems:'center'}}>Card title</h5>
+                    <h5 className="card-title" style={{alignItems:'center'}}>Card title1</h5>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     {/* <a href="#" className="card-link">Card link</a> */}
                 </div>
                 </div>
             </Carousel.Item>
             <Carousel.Item style={{ height: '300px' }}>
-            <img
-                className="d-block w-100 h-100"
-                src="images/1.jpg"
-                alt="First slide"
-                width="400px"
-                style={{ objectFit: 'contain', backgroundColor: '#F4F4F4' }}
-            />
+                <div className="card" style={{width: "50rem", alignItems:'center'}}>
+                <div className="card-body">
+                    <h5 className="card-title" style={{alignItems:'center'}}>Card title2</h5>
+                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    {/* <a href="#" className="card-link">Card link</a> */}
+                </div>
+                </div>
             </Carousel.Item>
             <Carousel.Item style={{ height: '300px' }}>
-            <img
-                className="d-block w-100 h-100"
-                src="images/logo.png"
-                alt="First slide"
-                width="400px"
-                style={{ objectFit: 'contain', backgroundColor: '#F4F4F4' }}
-            />
+                <div className="card" style={{width: "50rem", alignItems:'center'}}>
+                <div className="card-body">
+                    <h5 className="card-title" style={{alignItems:'center'}}>Card title3</h5>
+                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    {/* <a href="#" className="card-link">Card link</a> */}
+                </div>
+                </div>
             </Carousel.Item>
         </Carousel>
         </div>
