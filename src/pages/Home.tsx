@@ -32,6 +32,7 @@ export function Home(): ReactElement {
                 <div className="card-body" style={{border: 'none'}}>
                     <h5 className="card-title" style={{alignItems:'center'}}>Card title1</h5>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <img src="images/1.jpg" alt=" " />
                     {/* <a href="#" className="card-link">Card link</a> */}
                 </div>
                 </div>
@@ -41,6 +42,7 @@ export function Home(): ReactElement {
                 <div className="card-body" style={{border: 'none'}}>
                     <h5 className="card-title" style={{alignItems:'center'}}>Card title2</h5>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <img src="images/logo.png" alt=" " />
                     {/* <a href="#" className="card-link">Card link</a> */}
                 </div>
                 </div>
