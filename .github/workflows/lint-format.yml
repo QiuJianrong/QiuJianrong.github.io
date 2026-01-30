@@ -29,7 +29,7 @@ jobs:
           # cache: 'yarn'
 
       - name: Install dependencies
-        run: yarn --no-immutable
+        run: yarn
 
       - name: Lint source files
         run: yarn lint

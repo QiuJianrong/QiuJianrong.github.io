@@ -33,7 +33,7 @@ jobs:
           # cache: 'yarn'
 
       - name: Install dependencies
-        run: yarn --no-immutable
+        run: yarn
 
       - name: Build
         run: |
