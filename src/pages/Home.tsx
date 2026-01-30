@@ -1,4 +1,5 @@
 import { ReactElement } from 'react';
+import { Carousel, CarouselItem, CarouselControl, CarouselIndicators } from 'react-bootstrap';
 
 export function Home(): ReactElement {
   return (
@@ -27,33 +28,30 @@ export function Home(): ReactElement {
           <h4>About us</h4>
           <div className="group">
             {/* <img src="images/about.jpg" alt=" " /> */}
-            {/* bootstrap 轮播图 */}
-            <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-            <ol className="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div className="carousel-inner">
-                <div className="carousel-item active">
-                <img src="images/about.jpg" className="d-block w-100" alt="..." />
-                </div>
-                <div className="carousel-item">
-                <img src="images/logo.jpg" className="d-block w-100" alt="..." />
-                </div>
-                <div className="carousel-item">
-                <img src="images/1.jpg" className="d-block w-100" alt="..." />
-                </div>
-            </div>
-            <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="sr-only">Previous</span>
-            </a>
-            <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="sr-only">Next</span>
-            </a>
-            </div>
+            {/* React Bootstrap 轮播图 */}
+            <Carousel interval={3000} controls={true} indicators={true}>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src="images/about.jpg"
+                  alt="First slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src="images/logo.jpg"
+                  alt="Second slide"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src="images/1.jpg"
+                  alt="Third slide"
+                />
+              </Carousel.Item>
+            </Carousel>
           </div>
           <div className="group-text">
             <h3>SWIFT Lab</h3>
