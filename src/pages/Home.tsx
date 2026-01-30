@@ -13,6 +13,7 @@ export function Home(): ReactElement {
         </div>
       </div>
 
+        {/* News部分 */}
       <div className="container news">
         <h4>News</h4>
         <ul>
@@ -51,7 +52,7 @@ export function Home(): ReactElement {
               <Carousel.Item style={{ height: '300px' }}>
                 <img
                   className="d-block w-100 h-100"
-                  src="images/logo.jpg"
+                  src="images/logo.png"
                   alt="First slide"
                   width="400px"
                   style={{ objectFit: 'contain', backgroundColor: '#F4F4F4' }}
