@@ -23,7 +23,7 @@ export function Home(): ReactElement {
             </li>
         </ul> */}
         <h4>News</h4>
-        <div className="group">
+        <div className="group" style={{alignItems:'center'}}>
         {/* <img src="images/about.jpg" alt=" " /> */}
         {/* React Bootstrap 轮播图 */}
         <Carousel interval={3000} controls={true} indicators={true}>
