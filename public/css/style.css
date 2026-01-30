@@ -158,7 +158,7 @@ body,html{
 	}
 /*-- //banner --*/
 /*-- banner-bottom --*/
-.banner-bottom, .news, .news-content, .publication-content {
+.banner-bottom, .news, .news-content, .publication-content, .project-content {
 	padding:3em 0;
 	}
 .banner-bottom-left{
@@ -340,7 +340,7 @@ body,html{
 	background:#F4F4F4;
 	padding:6em 0;
 	}
-.team h4, .news h4, .people h4, .news-content h4, .publication-content h4{
+.team h4, .news h4, .people h4, .news-content h4, .publication-content h4, .project-content h4{
 	margin: 0 0 1.5em;
 	color: #292C34;
 	font-size: 35px;
@@ -1274,7 +1274,7 @@ p.para{
 		/*overflow: hidden;
 		height: 10em;*/
 		}
-	.team h4, .news h4, .people h4, .news-content h4, .publication-content h4{
+	.team h4, .news h4, .people h4, .news-content h4, .publication-content h4, .project-content h4{
 		margin: 0 0 1em;
 		font-size: 30px;
 		}
@@ -1598,7 +1598,7 @@ p.para{
 	.group-text p {
 		/*height: 6em;*/
 		}
-	.team h4, .news h4, .people h4, .news-content h4, .publication-content h4{
+	.team h4, .news h4, .people h4, .news-content h4, .publication-content h4, .project-content h4{
 		font-size: 27px;
 		}
 	.about-us h2 {
@@ -1837,7 +1837,7 @@ p.para{
 		overflow: initial;
 		font-size:13px;
 		}
-	.team h4, .news h4, .people h4, .news-content h4, .publication-content h4 {
+	.team h4, .news h4, .people h4, .news-content h4, .publication-content h4, .project-content h4{
 		font-size: 25px;
 		}
 	.about-us h2 {
