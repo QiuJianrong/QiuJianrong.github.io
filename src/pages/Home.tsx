@@ -14,7 +14,7 @@ export function Home(): ReactElement {
       </div>
 
     {/* News连播部分 */}
-    <div className="news-carousel-container">
+    {/* <div className="news-carousel-container">
         <Carousel interval={3000} controls={true} indicators={true} slide={true}>
         <Carousel.Item>
             <div className="news-card">
@@ -41,7 +41,7 @@ export function Home(): ReactElement {
             </div>
         </Carousel.Item>
         </Carousel>
-    </div>
+    </div> */}
 
       {/* 合照和简介部分 */}
       <div id="about" className="team">
