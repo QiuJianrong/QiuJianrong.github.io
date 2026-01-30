@@ -1943,3 +1943,30 @@ p.para{
 	font-size: 1.1em;
 	line-height: 1.8em
 }
+
+/*-- //to-top --*/
+/* 轮播图自定义样式 */
+.carousel {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    overflow: hidden;
+}
+ 
+/* 修改左右控制键颜色 */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #9c88ff;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+ 
+/* 修改分页指示器颜色 */
+.carousel-indicators button {
+    background-color: #9c88ff !important;
+}
+ 
+.carousel-indicators button.active {
+    background-color: #6c5ce7 !important;
+}
