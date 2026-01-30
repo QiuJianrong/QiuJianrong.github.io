@@ -19,6 +19,7 @@ export function Home(): ReactElement {
             <b>Month. Year: </b> Content.
           </li>
         </ul>
+      </div>
 
       {/* 合照部分 */}
       <div id="about" className="team">
