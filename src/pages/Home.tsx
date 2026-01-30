@@ -1,9 +1,5 @@
 import { ReactElement } from 'react';
 import { Carousel } from 'react-bootstrap';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/pagination'
-import {Pagination} from 'swiper/modules'
 
 
 export function Home(): ReactElement {
@@ -26,25 +22,40 @@ export function Home(): ReactElement {
                 <b>Month. Year: </b> Content.
             </li>
         </ul> */}
-      <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper"
-      >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
-      </Swiper>
+        <h4>News</h4>
+        <div className="group">
+        {/* <img src="images/about.jpg" alt=" " /> */}
+        {/* React Bootstrap 轮播图 */}
+        <Carousel interval={3000} controls={true} indicators={true}>
+            <Carousel.Item style={{ height: '300px' }}>
+                <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title" style={{alignItems:'center'}}>Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="card-link">Card link</a>
+                </div>
+                </div>
+            </Carousel.Item>
+            <Carousel.Item style={{ height: '300px' }}>
+            <img
+                className="d-block w-100 h-100"
+                src="images/1.jpg"
+                alt="First slide"
+                width="400px"
+                style={{ objectFit: 'contain', backgroundColor: '#F4F4F4' }}
+            />
+            </Carousel.Item>
+            <Carousel.Item style={{ height: '300px' }}>
+            <img
+                className="d-block w-100 h-100"
+                src="images/logo.png"
+                alt="First slide"
+                width="400px"
+                style={{ objectFit: 'contain', backgroundColor: '#F4F4F4' }}
+            />
+            </Carousel.Item>
+        </Carousel>
+        </div>
       </div>
 
       {/* 合照和简介部分 */}
