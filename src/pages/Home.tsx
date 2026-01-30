@@ -9,7 +9,7 @@ export function Home(): ReactElement {
         <div className="container">
           <div className="banner-info">
             <h2 style={{ color: '#baf8ff' }}>SWIFT Group</h2>
-            <p>SoftWare Intelligence and Foundational Systems Lab</p>
+            <p>SoftWare Intelligence and Foundational sysTems Lab</p>
           </div>
         </div>
       </div>
@@ -30,9 +30,9 @@ export function Home(): ReactElement {
             <Carousel.Item style={{ height: '300px' }}>
                 <div className="card" style={{border: 'none', width: "60%", height:'80%', alignItems:'center', margin:'0 auto'}}>
                 <div className="card-body" style={{border: 'none'}}>
+                    <img src="images/1.jpg" alt=" " />
                     <h5 className="card-title" style={{alignItems:'center'}}>Card title1</h5>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <img src="images/1.jpg" alt=" " />
                     {/* <a href="#" className="card-link">Card link</a> */}
                 </div>
                 </div>
@@ -40,9 +40,9 @@ export function Home(): ReactElement {
             <Carousel.Item style={{ height: '300px' }}>
                 <div className="card" style={{border: 'none', width: "60%", height:'80%', alignItems:'center', margin:'0 auto'}}>
                 <div className="card-body" style={{border: 'none'}}>
+                    <img src="images/logo.png" alt=" " />
                     <h5 className="card-title" style={{alignItems:'center'}}>Card title2</h5>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <img src="images/logo.png" alt=" " />
                     {/* <a href="#" className="card-link">Card link</a> */}
                 </div>
                 </div>
@@ -101,7 +101,7 @@ export function Home(): ReactElement {
             <h3>SWIFT Lab</h3>
             <p>
               <b>SWIFT</b> (<b>S</b>oft<b>W</b>are <b>I</b>ntelligence and <b>F</b>oundational
-              <b>S</b>ystems) Lab is XXX. The lab is headed by Assistant Prof.{' '}
+              sys<b>T</b>ems) Lab is XXX. The lab is headed by Assistant Prof.{' '}
               <a href="https://faculty.dukekunshan.edu.cn/zh-hans/faculty_profiles/chenjiacheng">Jiacheng Shen</a>.
               We are interested in research topices regarding XXX.
             </p>
