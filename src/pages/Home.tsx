@@ -13,35 +13,49 @@ export function Home(): ReactElement {
         </div>
       </div>
 
-    {/* News连播部分 */}
-    {/* <div className="news-carousel-container">
-        <Carousel interval={3000} controls={true} indicators={true} slide={true}>
-        <Carousel.Item>
-            <div className="news-card">
-            <div className="news-date">Month. Year</div>
-            <div className="news-content">News content 1</div>
-            </div>
-        </Carousel.Item>
-        <Carousel.Item>
-            <div className="news-card">
-            <div className="news-date">Month. Year</div>
-            <div className="news-content">News content 2</div>
-            </div>
-        </Carousel.Item>
-        <Carousel.Item>
-            <div className="news-card">
-            <div className="news-date">Month. Year</div>
-            <div className="news-content">News content 3</div>
-            </div>
-        </Carousel.Item>
-        <Carousel.Item>
-            <div className="news-card">
-            <div className="news-date">Month. Year</div>
-            <div className="news-content">News content 4</div>
-            </div>
-        </Carousel.Item>
-        </Carousel>
-    </div> */}
+      <div className="container news">
+        <h4>News</h4>
+        <div className="news-carousel-container">
+          <Carousel interval={3000} controls={true} indicators={true} slide={true}>
+            <Carousel.Item>
+              <div className="news-card">
+                <div className="news-date">Month. Year</div>
+                <div className="news-content">News content 1</div>
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div className="news-card">
+                <div className="news-date">Month. Year</div>
+                <div className="news-content">News content 2</div>
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div className="news-card">
+                <div className="news-date">Month. Year</div>
+                <div className="news-content">News content 3</div>
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div className="news-card">
+                <div className="news-date">Month. Year</div>
+                <div className="news-content">News content 4</div>
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div className="news-card">
+                <div className="news-date">Month. Year</div>
+                <div className="news-content">News content 5</div>
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div className="news-card">
+                <div className="news-date">Month. Year</div>
+                <div className="news-content">News content 6</div>
+              </div>
+            </Carousel.Item>
+          </Carousel>
+        </div>
+      </div>
 
       {/* 合照和简介部分 */}
       <div id="about" className="team">
@@ -57,7 +71,7 @@ export function Home(): ReactElement {
                   src="images/about.jpg"
                   alt="First slide"
                   width="400px"
-                  style={{ objectFit: 'contain', backgroundColor: '#fbfbfb' }}
+                  style={{ objectFit: 'contain', backgroundColor: '#F4F4F4' }}
                 />
               </Carousel.Item>
               <Carousel.Item style={{ height: '300px' }}>
@@ -66,7 +80,7 @@ export function Home(): ReactElement {
                   src="images/1.jpg"
                   alt="First slide"
                   width="400px"
-                  style={{ objectFit: 'contain', backgroundColor: '#fbfbfb' }}
+                  style={{ objectFit: 'contain', backgroundColor: '#F4F4F4' }}
                 />
               </Carousel.Item>
               <Carousel.Item style={{ height: '300px' }}>
@@ -75,7 +89,7 @@ export function Home(): ReactElement {
                   src="images/logo.jpg"
                   alt="First slide"
                   width="400px"
-                  style={{ objectFit: 'contain', backgroundColor: '#fbfbfb' }}
+                  style={{ objectFit: 'contain', backgroundColor: '#F4F4F4' }}
                 />
               </Carousel.Item>
             </Carousel>
