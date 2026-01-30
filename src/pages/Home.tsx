@@ -30,8 +30,8 @@ export function Home(): ReactElement {
             <Carousel.Item style={{ height: '300px' }}>
                 <div className="card" style={{border: 'none', width: "60%", height:'80%', alignItems:'center', margin:'0 auto'}}>
                 <div className="card-body" style={{border: 'none'}}>
-                    <img src="images/1.jpg" alt=" " />
-                    <h5 className="card-title" style={{alignItems:'center'}}>Card title1</h5>
+                    <img src="images/1.jpg" alt=" " style={{height:'50%'}} />
+                    <h5 className="card-title" style={{paddingTop:'10px'}}>Card title1</h5>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     {/* <a href="#" className="card-link">Card link</a> */}
                 </div>
@@ -40,8 +40,8 @@ export function Home(): ReactElement {
             <Carousel.Item style={{ height: '300px' }}>
                 <div className="card" style={{border: 'none', width: "60%", height:'80%', alignItems:'center', margin:'0 auto'}}>
                 <div className="card-body" style={{border: 'none'}}>
-                    <img src="images/logo.png" alt=" " />
-                    <h5 className="card-title" style={{alignItems:'center'}}>Card title2</h5>
+                    <img src="images/logo.png" alt=" " style={{height:'50%'}} />
+                    <h5 className="card-title" style={{paddingTop:'10px'}}>Card title2</h5>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     {/* <a href="#" className="card-link">Card link</a> */}
                 </div>
@@ -50,7 +50,7 @@ export function Home(): ReactElement {
             <Carousel.Item style={{ height: '300px' }}>
                 <div className="card" style={{border: 'none', width: "60%", height:'80%', alignItems:'center', margin:'0 auto'}}>
                 <div className="card-body" style={{border: 'none'}}>
-                    <h5 className="card-title" style={{alignItems:'center', margin:'0 auto'}}>Card title3</h5>
+                    <h5 className="card-title" style={{paddingTop:'10px'}}>Card title3</h5>
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     {/* <a href="#" className="card-link">Card link</a> */}
                 </div>
@@ -81,7 +81,7 @@ export function Home(): ReactElement {
                 <img
                   className="d-block w-100 h-100"
                   src="images/1.jpg"
-                  alt="First slide"
+                  alt="Second slide"
                   width="400px"
                   style={{ objectFit: 'contain', backgroundColor: '#F4F4F4' }}
                 />
@@ -90,7 +90,7 @@ export function Home(): ReactElement {
                 <img
                   className="d-block w-100 h-100"
                   src="images/logo.png"
-                  alt="First slide"
+                  alt="Third slide"
                   width="400px"
                   style={{ objectFit: 'contain', backgroundColor: '#F4F4F4' }}
                 />
