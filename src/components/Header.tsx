@@ -53,22 +53,23 @@ export function Header(): ReactElement {
               </span>
               <ul className="nav1" id="nav1">
                 <li>
-                  <a href="/">Home</a>
+                  {/* 确保点击后自动收起菜单 */}
+                  <a href="/" onClick={toggleMenu}>Home</a> 
                 </li>
                 <li>
-                  <a href="#/news">News</a>
+                  <a href="#/news" onClick={toggleMenu}>News</a>
                 </li>
                 <li>
-                  <a href="#/projects">Projects</a>
+                  <a href="#/projects" onClick={toggleMenu}>Projects</a>
                 </li>
                 <li>
-                  <a href="#/publication">Publication</a>
+                  <a href="#/publication" onClick={toggleMenu}>Publication</a>
                 </li>
                 <li>
-                  <a href="#/people">People</a>
+                  <a href="#/people" onClick={toggleMenu}>People</a>
                 </li>
                 <li>
-                  <a href="#/awards">Awards</a>
+                  <a href="#/awards" onClick={toggleMenu}>Awards</a>
                 </li>
               </ul>
             </div>
