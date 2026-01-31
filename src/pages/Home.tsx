@@ -19,7 +19,7 @@ export function Home(): ReactElement {
         <h4>News</h4>
         <ul>
             <li>
-                <b>Jan. 2026: </b> SWIFT Lab Founded. Congratulations! It is a new cross-institutional laboratory jointly established by Fudan University (FDU), Duke Kunshan University (DKU), and The Chinese University of Hong Kong (CUHK).
+                <b>Jan. 2026: </b> SWIFT Lab(FDU, DKU, CUHK) Founded. Congratulations!
             </li>
 
             <li>
