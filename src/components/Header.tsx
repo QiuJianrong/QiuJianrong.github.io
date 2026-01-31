@@ -54,22 +54,28 @@ export function Header(): ReactElement {
               <ul className="nav1" id="nav1">
                 <li>
                   {/* 确保点击后自动收起菜单 */}
-                  <a href="/" onClick={toggleMenu}>Home</a> 
+                  <a href="/">Home</a> 
+                  {/* <a href="/" onClick={toggleMenu}>Home</a>  */}
                 </li>
                 <li>
-                  <a href="#/news" onClick={toggleMenu}>News</a>
+                  <a href="#/news">News</a>
+                  {/* <a href="#/news" onClick={toggleMenu}>News</a> */}
                 </li>
                 <li>
-                  <a href="#/projects" onClick={toggleMenu}>Projects</a>
+                  <a href="#/projects">Projects</a>
+                  {/* <a href="#/projects" onClick={toggleMenu}>Projects</a> */}
                 </li>
                 <li>
-                  <a href="#/publication" onClick={toggleMenu}>Publication</a>
+                  <a href="#/publication">Publication</a>
+                  {/* <a href="#/publication" onClick={toggleMenu}>Publication</a> */}
                 </li>
                 <li>
-                  <a href="#/people" onClick={toggleMenu}>People</a>
+                  <a href="#/people">People</a>
+                  {/* <a href="#/people" onClick={toggleMenu}>People</a> */}
                 </li>
                 <li>
-                  <a href="#/awards" onClick={toggleMenu}>Awards</a>
+                  <a href="#/awards">Awards</a>
+                  {/* <a href="#/awards" onClick={toggleMenu}>Awards</a> */}
                 </li>
               </ul>
             </div>
