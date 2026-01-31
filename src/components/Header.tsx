@@ -42,7 +42,7 @@ export function Header(): ReactElement {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [isHome]);
 
 
   return (
