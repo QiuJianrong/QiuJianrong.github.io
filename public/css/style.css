@@ -112,7 +112,7 @@ body {
 	margin: 2.1em 0;
 	}
 .top-nav p a:hover{
-	color:#9c88ff;
+	color:#303952;
 	text-decoration:none;
 	}
 /*-- //header --*/
@@ -165,8 +165,8 @@ body {
 	}
 .more a:hover{
 	text-decoration:none;
-	color:#9c88ff;
-	border:1px solid #9c88ff;
+	color:#303952;
+	border:1px solid #303952;
 	background:url(../images/1-.png) no-repeat 10em 1.4em #fff;
 	display:block;
 	}
@@ -1118,7 +1118,7 @@ p.para{
 		padding: 11px 0px;
 		width: 23%;
 		height: 45px;
-		background: url(../images/1.png) no-repeat 9.5em 1.25em #9c88ff;
+		background: url(../images/1.png) no-repeat 9.5em 1.25em #303952;
 		}
 	.more a:hover {
 		background: url(../images/1-.png) no-repeat 9.5em 1.25em #fff;
