@@ -4,7 +4,7 @@ import {useLocation} from 'react-router-dom';
 export function Header(): ReactElement {
   // 查看是否在home页面
   const location = useLocation();
-  const isHome = location.pathname === '/';
+  const isHome = location.pathname === '/' || location.pathname === '/index.html';
 
   // change element with id="nav1" to display block if it is hidden, or hide it if it is displayed
   const toggleMenu = () => {
@@ -37,7 +37,7 @@ export function Header(): ReactElement {
       }
     };
 
-    // handleScroll();
+    handleScroll();
     window.addEventListener('scroll', handleScroll);
     return () => {
       window.removeEventListener('scroll', handleScroll);
