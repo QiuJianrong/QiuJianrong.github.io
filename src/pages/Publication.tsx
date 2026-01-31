@@ -10,7 +10,7 @@ import {
 
 export function Publication(): ReactElement {
   // 静态构造papers数据
-  const [papers, setPapers] = useState([
+  const papers = [
     {
       id: '0',
       title: 'Example Paper Title 1',
@@ -48,28 +48,14 @@ export function Publication(): ReactElement {
       projectUrl: 'https://example.com/project2',
       slidesUrl: 'https://example.com/slides2'
     }
-  ] as LiteratureEntry[]);
+  ] as LiteratureEntry[];
   
-  // 静态数据不需要加载状态
-  const [loading, setLoading] = useState(false);
 
   return (
     <div className="container">
       <div style={{ minHeight: 200 }}>
         {/* 原来这个是三元表达式，loading为true时显示加载动画（GridLoader组件），否则显示publication列表 */}
-        {loading ? (
-          <div
-            style={{
-              position: 'relative',
-              marginTop: 100,
-              marginLeft: 'auto',
-              marginRight: 'auto',
-              width: '20px',
-            }}
-          >
-            <GridLoader color="#5dc9c9" />
-          </div>
-        ) : (
+        {(
           // 这就是文件列表了，已经被打包为了Literatures组件
           <Literatures
             title={'Selected Publication'}
