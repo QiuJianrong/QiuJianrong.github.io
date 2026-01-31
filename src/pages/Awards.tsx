@@ -8,7 +8,7 @@ export function Awards(): ReactElement {
         <div className="clearfix"> </div>
         <ul className="news-list">
           <li>
-            <b>Sep. 2016: </b>
+            <b>2025: </b>
             <a href="http://sccpu2.cse.ust.hk/ficfinder/index.html">
               FicFinder
             </a>{' '}

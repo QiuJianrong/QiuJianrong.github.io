@@ -12,40 +12,27 @@ export function Publication(): ReactElement {
   const papers = [
     {
       id: '0',
-      title: 'Example Paper Title 1',
-      date: new Date('2023-01-01'),
+      title: 'The Pensieve Paradigm: Stateful Language Models with Learned Memory Management',
+      date: new Date('2026-01-XX'),
       type: 'Conference Paper',
       authors: [
-        { lastName: 'Author', firstName: 'First' } as LiteratureAuthor,
-        { lastName: 'Another', firstName: 'Author' } as LiteratureAuthor
+        { lastName: 'Xiaoyuan', firstName: 'Liu' } as LiteratureAuthor,
+        { lastName: 'Tian', firstName: 'Liang' } as LiteratureAuthor,
+        { lastName: 'Dongyang', firstName: 'Ma' } as LiteratureAuthor,
+        { lastName: 'Deyu', firstName: 'Zhou' } as LiteratureAuthor,
+        { lastName: 'Haitao', firstName: 'Mi' } as LiteratureAuthor,
+        { lastName: 'Pinjia', firstName: 'He' } as LiteratureAuthor,
+        { lastName: 'Yan', firstName: 'Wang' } as LiteratureAuthor
       ],
-      venue: 'International Conference on Example',
-      venueShort: 'ICE 2023',
+      venue: 'International Conference on Learning Representations',
+      venueShort: 'ICLR 2026',
       tags: ['tag1', 'tag2'],
       awards: [],
-      paperUrl: 'https://example.com/paper1',
+      paperUrl: 'https://openreview.net/pdf?id=GymjF88oGQ',
       abstract: 'This is an example abstract for the first paper.',
-      bibtex: '@inproceedings{example1, title={Example Paper Title 1}, author={First Author and Another Author}, booktitle={International Conference on Example}, year={2023}}',
+      bibtex: '暂时还没有',
       projectUrl: '',
       slidesUrl: ''
-    },
-    {
-      id: '1',
-      title: 'Example Paper Title 2',
-      date: new Date('2022-06-15'),
-      type: 'Journal Article',
-      authors: [
-        { lastName: 'Author', firstName: 'Second' } as LiteratureAuthor
-      ],
-      venue: 'Journal of Examples',
-      venueShort: 'JOE',
-      tags: ['tag3'],
-      awards: ['Best Paper Award'],
-      paperUrl: 'https://example.com/paper2',
-      abstract: 'This is an example abstract for the second paper.',
-      bibtex: '@article{example2, title={Example Paper Title 2}, author={Second Author}, journal={Journal of Examples}, year={2022}}',
-      projectUrl: 'https://example.com/project2',
-      slidesUrl: 'https://example.com/slides2'
     }
   ] as LiteratureEntry[];
   

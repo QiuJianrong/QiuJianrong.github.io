@@ -30,15 +30,15 @@ body,html{
     font-size: 14px !important;
 	}
 /*-- header --*/
-/* .header {
-	background-color: #9c88ff;
-} */
 .header {
+	background-color: #341f97;
+}
+/* .header {
 	background: url('../images/header_bg.jpg') no-repeat center center;
 	background-size: cover;
 	position: relative;
 	height: 88px;
-}
+} */
  
 .head .container {
 	position: absolute;
