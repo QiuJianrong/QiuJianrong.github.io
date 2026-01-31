@@ -12,7 +12,7 @@ export function Publication(): ReactElement {
   // 静态构造papers数据
   const [papers, setPapers] = useState([
     {
-      id: 0,
+      id: '0',
       title: 'Example Paper Title 1',
       date: new Date('2023-01-01'),
       type: 'Conference Paper',
@@ -31,7 +31,7 @@ export function Publication(): ReactElement {
       slidesUrl: ''
     },
     {
-      id: 1,
+      id: '1',
       title: 'Example Paper Title 2',
       date: new Date('2022-06-15'),
       type: 'Journal Article',
