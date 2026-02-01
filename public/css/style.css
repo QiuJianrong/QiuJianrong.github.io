@@ -390,10 +390,12 @@ body {
 	}
 	.team .group{
 		order: 2;
+		width: 100%;
 		margin-top: 1em;
 	}
 	.team .group-text{
 		order: 1;
+		width: 100%;
 		margin-left: 0;
 	}
 }
