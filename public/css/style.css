@@ -381,6 +381,23 @@ body {
 	background:#F4F4F4;
 	padding:6em 0;
 	}
+
+	/* 移动端布局 */
+@media (max-width: 480px) {
+	.team .container {
+		display: flex;
+		flex-direction: column;
+	}
+	.team .group{
+		order: 2;
+		margin-top: 1em;
+	}
+	.team .group-text{
+		order: 1;
+		margin-left: 0;
+	}
+}
+
 .team h4, .news h4, .people h4, .news-content h4, .publication-content h4, .project-content h4{
 	margin: 0 0 1.5em;
 	color: #292C34;
