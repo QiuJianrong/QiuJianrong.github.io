@@ -1976,8 +1976,9 @@ p.para{
 	width: 8em;
 }
 .project_ul li {
-	font-size: 1.1em;
-	line-height: 1.8em
+	font-size: 1.3em;
+	line-height: 1.6em;
+	margin: 1.5em auto;
 }
 
 /*-- //to-top --*/
