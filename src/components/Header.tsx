@@ -17,15 +17,16 @@ export function Header(): ReactElement {
 
   // 下滑则header变成header.scroll
   // 顶部则transprant的header
+  const [scrolled, setScrolled] = useState<boolean>(false);
   useEffect(() => {
     const handleScroll = () => {
       const header = document.querySelector('.header');
       if (header) {
         console.log('scrollY:', window.scrollY);
         if (window.scrollY > 0) {
-          header.classList.add('scrolled');
+          setScrolled(true);
         } else {
-          header.classList.remove('scrolled');
+          setScrolled(false);
         }
       }
     };
@@ -55,10 +56,10 @@ export function Header(): ReactElement {
   }, []);
   const isHome = currentPath === '/' || currentPath === '/#/';
   console.log('isHome:', isHome);
-  
+
   return (
     <>
-      <div className="header" style={{ backgroundColor: isHome ? 'transparent' : '#303952' }}>
+      <div className="header" style={{ backgroundColor: isHome ? (scrolled ? '#303952' : 'transparent') : '#303952' }}>
         <div className="container">
           <div className="header-part">
             <div className="head-logo">
