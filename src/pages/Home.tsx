@@ -107,11 +107,13 @@ export function Home(): ReactElement {
               <a href="https://bernardshen.github.io/">Jiacheng Shen</a>， and Prof.{' '}
               <a href="https://www.y-droid.com/">Yangfan Zhou</a>. Our goal is to bring intelligence into software development and making intelligent systems more available to everyone. The followings are the two research main research areas at Swift Lab: 
               
-              <ul>
-                  <li>
+              <ul style={{ fontSize: '1.1em', listStyle: 'none', paddingLeft: '20px' }}>
+                  <li style={{ position: 'relative', paddingLeft: '20px' }}>
+                      <span style={{ position: 'absolute', left: '0', color: '#9c88ff' }}>•</span>
                       <div>Al4SE (Artificial Intelligence for Software Engineering)</div>
                   </li>
-                  <li>
+                  <li style={{ position: 'relative', paddingLeft: '20px' }}>
+                      <span style={{ position: 'absolute', left: '0', color: '#9c88ff' }}>•</span>
                       <div>Sys4ML (Systems for Machine Learning)</div>
                   </li>
                 </ul>  

@@ -36,7 +36,7 @@ export function Awards(): ReactElement {
             <a href="http://sccpu2.cse.ust.hk/ficfinder/index.html">
               <a href="https://pinjiahe.github.io/">Prof. Pinjia He</a>
             </a>{' '}
-            received <strong>World’s Top 2% Scientist (Single Year), Elsevier</strong>
+            received <strong>World’s Top 2% Scientist (Single Year)</strong>, Elsevier
           </li> 
 
           <li>
