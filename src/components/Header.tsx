@@ -102,7 +102,7 @@ export function Header(): ReactElement {
                 </li>
                 <li>
                   {/* <a href="#/publication">Publication</a> */}
-                  <a href="#/publication" onClick={toggleMenu}>Publication</a>
+                  <a href="#/publication" onClick={toggleMenu}>Publications</a>
                 </li>
                 <li>
                   {/* <a href="#/people">People</a> */}
