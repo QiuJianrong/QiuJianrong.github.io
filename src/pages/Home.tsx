@@ -90,15 +90,15 @@ export function Home(): ReactElement {
                   style={{ objectFit: 'contain', backgroundColor: '#F4F4F4' }}
                 />
               </Carousel.Item>
-              {/* <Carousel.Item style={{ height: '300px' }}>
+              <Carousel.Item style={{ height: '300px' }}>
                 <img
                   className="d-block w-100 h-100"
-                  src="images/logo.png"
+                  src="images/about3.jpg"
                   alt="Third slide"
                   // width="400px"
                   style={{ objectFit: 'contain', backgroundColor: '#F4F4F4' }}
                 />
-              </Carousel.Item> */}
+              </Carousel.Item>
             </Carousel>
           </div>
           <div className="group-text">
