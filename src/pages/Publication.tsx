@@ -86,7 +86,7 @@ export function Publication(): ReactElement {
             defaultReverse={true}
             // enableSort
             // enableFilter
-            enableSearch
+            // enableSearch
             enableScrollTopButton
           />
         )}
