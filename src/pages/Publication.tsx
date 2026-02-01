@@ -78,10 +78,10 @@ export function Publication(): ReactElement {
         {(
           // 这就是文件列表了，已经被打包为了Literatures组件
           <Literatures
-            title={'Selected Publication'}
+            title={'Publication'}
             description={''}
             entries={papers}
-            // listHeader={''}
+            listHeader={''}
             defaultSortCriterion="date"
             defaultReverse={true}
             // enableSort
