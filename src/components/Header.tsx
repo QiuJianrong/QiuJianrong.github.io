@@ -22,6 +22,7 @@ export function Header(): ReactElement {
       const header = document.querySelector('.header');
       if (header) {
         if (window.scrollY > 0) {
+          console.log('scrollY:', window.scrollY);
           header.classList.add('scrolled');
         } else {
           header.classList.remove('scrolled');
@@ -31,15 +32,18 @@ export function Header(): ReactElement {
 
     handleScroll();
     window.addEventListener('scroll', handleScroll);
+    // Header组件卸载时移除事件监听
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
 
+
+  const isHome = window.location.pathname === '/';
   return (
     <>
-      <div className="header">
+      <div className="header" style={{ backgroundColor: isHome ? 'transparent' : '#303952' }}>
         <div className="container">
           <div className="header-part">
             <div className="head-logo">
