@@ -59,7 +59,7 @@ export function Publication(): ReactElement {
       date: new Date(d.date),
       type: d.type || 'Conference Paper', // 使用JSON中的type，默认Conference Paper
       authors: d.authors.map(parseAuthor),
-      // venue: d.venue,
+      venue: d.venue,
       venueShort: d.venueShort,
       tags: d.tags,
       awards: d.awards,
