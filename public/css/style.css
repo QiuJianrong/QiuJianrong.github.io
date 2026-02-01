@@ -71,7 +71,12 @@ body {
 	position: relative;
 	height: 88px;
 } */
- 
+
+/* 为了使主页的footer也能占满一页 */
+.container.news {
+    flex: 1;
+}
+
 .head .container {
 	position: absolute;
 	top: 0;
