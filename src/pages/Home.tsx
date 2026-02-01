@@ -26,7 +26,7 @@ export function Home(): ReactElement {
             </li>
 
             <li>
-                <b>Jan. 2026: </b> SWIFT Lab(FDU, DKU, CUHK-Shenzhen) Founded. Congratulations!
+                <b>Jan. 2026: </b> SWIFT Lab Founded!
             </li>
 
         </ul>
