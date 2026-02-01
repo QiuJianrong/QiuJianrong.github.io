@@ -407,11 +407,21 @@ body {
 	/*font-family: 'Roboto', sans-serif;*/
 	text-align: center;
 	}
+
+/* 只有在大屏幕上才是分两边，每边40%和45% */
+@media (min-width: 481px) {
 .group{
 	float:left;
 	width:40%;
 	align-items: center;
 	}
+.group-text{
+	float:left;
+	width: 45%;
+	margin-left: 6em;
+	}		
+}
+
 .group img{
 	width:100%;
 	}
@@ -420,11 +430,7 @@ body {
 	margin:0 0 1em;
 	font-size:20px;
 	}
-.group-text{
-	float:left;
-	width: 45%;
-	margin-left: 6em;
-	}
+
 .group-text p{
 	color:#97999B;
 	margin:0;
