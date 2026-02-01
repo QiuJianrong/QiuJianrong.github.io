@@ -1,4 +1,4 @@
-import { ReactElement, useEffect } from 'react';
+import { ReactElement, useEffect, useState } from 'react';
 
 export function Header(): ReactElement {
   // change element with id="nav1" to display block if it is hidden, or hide it if it is displayed
@@ -39,9 +39,23 @@ export function Header(): ReactElement {
   }, []);
 
 
+  // 1. 添加路由状态
+  const [currentPath, setCurrentPath] = useState<string>(
+    `${window.location.pathname}${window.location.hash}`
+  );
 
-  const isHome = window.location.pathname === '/';
+  // 2. 监听哈希变化
+  useEffect(() => {
+    const handleHashChange = () => {
+      setCurrentPath(`${window.location.pathname}${window.location.hash}`);
+    };
+    
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
+  const isHome = currentPath === '/' || currentPath === '/#/';
   console.log('isHome:', isHome);
+  
   return (
     <>
       <div className="header" style={{ backgroundColor: isHome ? 'transparent' : '#303952' }}>
