@@ -1,5 +1,27 @@
 [
   {
+    "title": "The Pensieve Paradigm: Stateful Language Models with Learned Memory Management",
+    "date": "2026",
+    "authors": [
+      "Xiaoyuan Liu",
+      "Tian Liang",
+      "Dongyang Ma",
+      "Deyu Zhou",
+      "Haitao Mi",
+      "Yan Wang"
+    ],
+    "venue": "International Conference on Learning Representations",
+    "venueShort": "ICLR 2026",
+    "tags": [],
+    "abstract": "This is an example abstract",
+    "projectUrl": null,
+    "paperUrl": "https://openreview.net/pdf?id=GymjF88oGQ",
+    "slidesUrl": null,
+    "bibtex": "",
+    "arxivUrl": null,
+    "awards": []
+  },
+  {
     "title": "Trust, But Verify: A Self-Verification Approach to Reinforcement Learning with Verifiable Rewards",
     "date": "2025",
     "authors": [
